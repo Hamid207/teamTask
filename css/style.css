@@ -64,8 +64,7 @@ body {
   color: #13a6ba;
 }
 
-
-.headerMenuBody  > a {
+.headerMenuBody > a {
   color: #fff;
   text-align: center;
   font-size: 20px;
@@ -83,6 +82,54 @@ body {
 }
 
 /*Section1-------------------------------------*/
+
+.section1_body {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 142px;
+}
+
+.titles {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 988px;
+  max-height: 210px;
+}
+
+.titles > h1 {
+  color: var(--Black, #021112);
+  text-align: center;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 105px;
+}
+
+.titles > p {
+  margin-top: 31px;
+  color: var(--black-shade, #677071);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+
+}
+
+.search_body {
+  background-color: red;
+}
+
+.rent_buy_selt > ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
 
 /*Section2-------------------------------------*/
 

@@ -117,19 +117,101 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 34px;
+}
 
+.menu_body {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 55px 0px rgba(0, 0, 0, 0.07);
+}
+
+.rent_buy_selt {
+  border-bottom: 1px solid #e0e2e3;
+  padding-bottom: 28px;
+}
+
+.rent_buy_selt > ul {
+  display: flex;
+  list-style: none;
+  gap: 86px;
+  padding-top: 45px;
+  padding-left: 55px;
+}
+
+.rent_buy_selt > ul > li > button {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  color: var(--black-shade-2, #cccfd0);
+  text-align: center;
+  background-color: white;
+}
+
+.rent_buy_selt > ul > li > button:hover {
+  color: black;
 }
 
 .search_body {
-  background-color: red;
-}
-
-.rent_buy_selt > ul{
   display: flex;
-  list-style: none;
-  justify-content: space-between;
+  margin-top: 33px;
+  gap: 68px;
 }
 
+.search_body > ul {
+  list-style: none;
+  display: flex;
+  margin-left: 47px;
+  gap: 100px;
+}
+
+.search_body > ul > li > div {
+  display: flex;
+}
+
+.search_body > ul > li > div > p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.search_body > ul > li > div > div {
+  width: 30px;
+  height: 30px;
+}
+
+.search_body > ul > li > button {
+  margin-bottom: 44px;
+  margin-left: 30px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+  background-color: white;
+}
+
+.searhBtn_body {
+  margin-right: 54px;
+}
+.searhBtn_body > button {
+  border-radius: 20px;
+  background: #13a6ba;
+  width: 206.314px;
+  height: 82.979px;
+  color: #fff;
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+}
+
+.houseImg {
+  width: 100%;
+  margin-top: -200px;
+}
 
 /*Section2-------------------------------------*/
 

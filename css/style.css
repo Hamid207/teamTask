@@ -216,24 +216,59 @@ body {
 /*Section2-------------------------------------*/
 
 /*Section3-------------------------------------*/
+
+.section3Back {
+  background-color: #fff;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .section3_body {
+  margin-left: 120px;
+  margin-right: 120px;
   display: flex;
+  justify-content: space-between;
+  gap: 118px;
 }
 
 .miniHouseImg {
-  width: 400.399px;
-  height: 600.099px;
+  width: 500.399px;
+  height: 800.099px;
 }
 
-.section3Titles  > h2 {
+.section3Titles > h2 {
   font-size: 58px;
   font-style: normal;
   font-weight: 700;
   line-height: 91px;
 }
 
-.secondItems > div > img {
+.secondItems {
+  display: flex;
+  gap: 41px;
+  margin-top: 80px;
+}
 
+.secondItems > :nth-child(1) {
+  width: 120.964px;
+  height: 120.964px;
+  border-radius: 10px;
+  background: #fbfced;
+}
+
+.secondItems > :nth-child(2) > h3 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.secondItems > :nth-child(2) > p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  color: #677071;
 }
 
 /*Section4-------------------------------------*/
